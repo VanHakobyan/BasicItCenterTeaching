@@ -1,0 +1,2 @@
+# CodeFights
+Solution from codefights
