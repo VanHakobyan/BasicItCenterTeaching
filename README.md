@@ -1,2 +1,2 @@
-# CodeFights
-Solution from codefights
+<p align="center">CodeFights<br>
+Solution from codefights</p>
