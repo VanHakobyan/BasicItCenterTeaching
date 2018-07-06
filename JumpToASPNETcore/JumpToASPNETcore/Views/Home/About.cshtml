@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "About";
+    Layout = null;
+    List<string> list = ViewData["MyList"] as List<string>;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Page Title</title>
+    <link href="~/images/banner3.svg"  rel="icon" />
+</head>
+<body>
+
+    <h1 style="color:red">This is a Heading</h1>
+    <p align="center">This is a paragraph.</p>
+
+
+    @foreach (var item in list)
+    {
+        <ul style="color:brown">@item</ul>
+    }
+
+</body>
+</html>
