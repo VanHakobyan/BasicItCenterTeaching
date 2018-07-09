@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JumpToASPNETcore", "JumpToASPNETcore\JumpToASPNETcore.csproj", "{4C8A4EE4-7503-4B9B-999F-294BF2840FAF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JumpToASPNETcore", "JumpToASPNETcore\JumpToASPNETcore.csproj", "{4C8A4EE4-7503-4B9B-999F-294BF2840FAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{8FC0A344-05D3-4D28-9787-4BDE4EFFC8F4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{4C8A4EE4-7503-4B9B-999F-294BF2840FAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C8A4EE4-7503-4B9B-999F-294BF2840FAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C8A4EE4-7503-4B9B-999F-294BF2840FAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FC0A344-05D3-4D28-9787-4BDE4EFFC8F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FC0A344-05D3-4D28-9787-4BDE4EFFC8F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FC0A344-05D3-4D28-9787-4BDE4EFFC8F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FC0A344-05D3-4D28-9787-4BDE4EFFC8F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
