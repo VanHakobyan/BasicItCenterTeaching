@@ -1,0 +1,53 @@
+﻿@model JumpToASPNETcore.Models.FormData
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Index</h2>
+
+<h4>FormData</h4>
+<hr />
+<div class="row">
+        <div class="col-md-4">
+            <form asp-action="Index">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="TextBoxStringData" class="control-label"></label>
+                    <input asp-for="TextBoxStringData" class="form-control" />
+                    <span asp-validation-for="TextBoxStringData" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="TextBoxIntData" class="control-label"></label>
+                    <input asp-for="TextBoxIntData" class="form-control" />
+                    <span asp-validation-for="TextBoxIntData" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <div class="checkbox">
+                        <label>
+                            <input asp-for="CheckboxData" /> @Html.DisplayNameFor(model => model.CheckboxData)
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Save" class="btn btn-default" />
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div>
+        <a asp-action="Index">Back to List</a>
+    </div>
+
+@*@using (Html.BeginForm("FormTwo", "Form", FormMethod.Post))
+{
+    @Html.TextBoxFor(m => m.TextBoxStringData)
+    <br>
+    @Html.TextBoxFor(model => model.TextBoxIntData)
+    <br>
+    @Html.CheckBoxFor(model => model.CheckboxData)
+    <br>
+
+    <input type="submit" value="Submit strongly type synchronous form" />
+}*@

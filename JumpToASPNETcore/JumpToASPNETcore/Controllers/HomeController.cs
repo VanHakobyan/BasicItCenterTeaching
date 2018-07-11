@@ -78,5 +78,9 @@ namespace JumpToASPNETcore.Controllers
         {
             return Json(peoples);
         }
+
+
+
+        
     }
 }
