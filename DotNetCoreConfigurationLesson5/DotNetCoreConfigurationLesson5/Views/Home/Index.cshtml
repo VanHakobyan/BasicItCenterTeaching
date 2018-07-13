@@ -1,0 +1,28 @@
+﻿@{
+    Layout = null;
+    ViewData["Title"] = "Home Page";
+}
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+<p>First option</p>
+<form name="myForm" style="align-content: center">
+        First name: <span>@ViewBag.FirstName</span><br>
+        Last name: <span>@ViewBag.LastName</span><br>
+        Age: <span>@ViewBag.Age</span>
+    </form>
+    
+<p>Second Option</p>
+
+<form name="myForm2" style="align-content: center">
+    Last name: <span>@ViewBag.People["FirstName"]</span><br>
+    First name: <span>@ViewBag.People["LastName"]</span><br>
+    Age: <span>@ViewBag.People["Age"]</span>
+</form>
+<p>Connection String</p>
+
+<span>@ViewBag.Cs</span>
+</body>
+</html>

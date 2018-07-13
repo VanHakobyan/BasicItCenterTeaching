@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCoreConfigurationLesson5", "DotNetCoreConfigurationLesson5\DotNetCoreConfigurationLesson5.csproj", "{CA138C40-4D50-4379-8E66-9A2EE0CFDF6E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA138C40-4D50-4379-8E66-9A2EE0CFDF6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA138C40-4D50-4379-8E66-9A2EE0CFDF6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA138C40-4D50-4379-8E66-9A2EE0CFDF6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA138C40-4D50-4379-8E66-9A2EE0CFDF6E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A38CA5FD-B4E5-4A37-8A16-116A1F3B6DD5}
+	EndGlobalSection
+EndGlobal
