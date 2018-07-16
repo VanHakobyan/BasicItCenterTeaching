@@ -7,22 +7,34 @@
     <title></title>
 </head>
 <body>
-<p>First option</p>
-<form name="myForm" style="align-content: center">
+    <p>First option</p>
+    <form name="myForm" style="align-content: center">
         First name: <span>@ViewBag.FirstName</span><br>
         Last name: <span>@ViewBag.LastName</span><br>
         Age: <span>@ViewBag.Age</span>
     </form>
-    
-<p>Second Option</p>
 
-<form name="myForm2" style="align-content: center">
-    Last name: <span>@ViewBag.People["FirstName"]</span><br>
-    First name: <span>@ViewBag.People["LastName"]</span><br>
-    Age: <span>@ViewBag.People["Age"]</span>
-</form>
-<p>Connection String</p>
+    <p>Second Option</p>
 
-<span>@ViewBag.Cs</span>
+    <form name="myForm2" style="align-content: center">
+        Last name: <span>@ViewBag.People["FirstName"]</span><br>
+        First name: <span>@ViewBag.People["LastName"]</span><br>
+        Age: <span>@ViewBag.People["Age"]</span>
+    </form>
+    <p>Connection String</p>
+
+    <span>@ViewBag.Cs</span>
+    <br />
+    <br />
+    <form name="Person">
+        @foreach (var item in (Dictionary<string, string>)ViewBag.Dictionary)
+        {
+            <span>@(item.Key)</span>
+            <span>@(item.Value)</span>
+            <br>
+        }
+    </form>
+
+
 </body>
 </html>

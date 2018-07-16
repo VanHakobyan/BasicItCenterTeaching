@@ -44,6 +44,8 @@ namespace DotNetCoreConfigurationLesson5.Controllers
             ViewBag.Cs = connectionString;
             #endregion
 
+            Dictionary<string,string> configurationSections = _configuration.GetSection("PersonalAddress").GetChildren().ToDictionary(x=>x.Key,y=>y.Value);
+            ViewBag.Dictionary = configurationSections;
             return View();
         }
 
