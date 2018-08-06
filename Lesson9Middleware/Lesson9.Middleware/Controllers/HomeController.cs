@@ -11,11 +11,24 @@ namespace Lesson9.Middleware.Controllers
 {
     public class HomeController : Controller
     {
-        public async Task<IActionResult> Index()
+        public  IActionResult Index()
         {
-            Thread.Sleep(20000);
-            //Task.Run(() => );
+            var typeAn = new { x = 15 , y=20 };
+            var number = typeAn.x;
+
+            dynamic d = 25;
+            d = "yh";
+
+
+            Guid guid = Guid.NewGuid();
+            var s= guid.ToString();
+
+            var date = DateTime.Now.ToString("yyyy-mm--dd");
+
+            var dec = 2532.13543d;
+            dec.ToString("##.###");
             return View();
+
         }
 
         public IActionResult About()
